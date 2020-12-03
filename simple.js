@@ -49,14 +49,13 @@ var pragmaticListener = function(utterance){
 }
 
 // interpretation of 'blue cap' for literal listener
-// probabilities assigned to individual objects
+// probabilities assigned to individual objects when hearing 'blue cap'
 viz.table(literalListener("blue cap"))
 
-// interpretation of 'blue cap' for pragmatic listener
-// probabilities how pragmatic listener interprets blue cap
+// choice of expression for pragmatic speaker
+// probabilities assigned to individual expressions when referring to 'green monster with blue cap'
 viz.table(speaker("green monster with blue cap"))
 
 // interpretation of 'blue cap' for pragmatic listener
-// probabilities how pragmatic listener interprets blue cap
+// probabilities assigned to individual objects when hearing 'blue cap'
 viz.table(pragmaticListener("blue cap"))
-
